@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Header from '../Layout/Header';
+import Footer from '../Layout/Footer';
+import Banner from './Partails/Banner';
 
 function Home() {
   return (
     <div>
-      <h1>Hey</h1>
+        <Header />
+        <Banner />
+        <Footer />
     </div>
   )
 }

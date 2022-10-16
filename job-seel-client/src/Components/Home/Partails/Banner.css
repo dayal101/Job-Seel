@@ -1,4 +1,38 @@
+.banner-wrapper {
+    background-image: url("../../../../public/assets/image/job-seel-banner.jpg");
+    width: 100%;
+    height: 85vh;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .banner-image {
-    max-width: 100vh;
-    height: auto;
+    width: 100%;
+    height: 85vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.center {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    width: 50%;
+    border: 2px solid #3a3b3a;
+    border-radius: 10px;
+    padding: 25px;
+}
+.banner__button {
+    width: 100%;
+    height: 100%;
+}
+.banner__popsearch {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.banner__popbutton {
+    margin: 3px 2px;
+    color: #000;
+    background-color: #b8b9b8;
 }

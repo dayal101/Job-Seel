@@ -1,0 +1,48 @@
+.header-links {
+    font-size: large;
+    font-weight: 500;
+    color: #fff;
+}
+.modal-header {
+    border: 0;
+}
+.header_title {
+    text-align: center;
+}
+.login__form {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.login_btn_wrapper {
+    margin-top: 50px;
+    text-align: center;
+}
+.forgot_password_link {
+    float: right;
+}
+.login__break-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.login__break {
+    align-items: center;
+    width: 100%;
+    padding: 20px 10px;
+    text-align: center;
+    display: inline-flex;
+}
+.front_line {
+    height: 1px;
+    background: #000;
+}
+.back_line {
+    height: 1px;
+    background: #000;
+}
+
+.register__link {
+    margin-top: 15px;
+    text-align: center;
+}

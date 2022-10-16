@@ -6,12 +6,12 @@ import Category from './Partails/Category'
 
 function Home() {
   return (
-    <div className="homepage-wrapper">
+    <>
         <Header />
         <Banner />
         <Category />
         <Footer />
-    </div>
+    </>
   )
 }
 
